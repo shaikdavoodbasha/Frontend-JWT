@@ -641,11 +641,11 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
             ),
           ],
         ),
-        // child: Icon(
-        //   icon,
-        //   color: color,
-        //   size: 30,
-        // ),
+        child: Icon(
+          icon,
+          color: color,
+          size: 30,
+        ),
       ),
     );
   }
