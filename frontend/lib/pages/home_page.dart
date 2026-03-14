@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
       end: Offset.zero,
     ).animate(CurvedAnimation(parent: _animationController, curve: Curves.easeOut));
     
-    loadProfile();
+    // loadProfile();
   }
 
   @override
