@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/api_service.dart';
 import '../storage/token_storage.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'home_page.dart';
 import 'register_page.dart';
 
@@ -525,9 +526,9 @@ class _LoginPageState extends State<LoginPage> with SingleTickerProviderStateMix
                                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                 children: [
                                   _buildSocialButton(
-                                    icon: Icons.g_mobiledata_rounded,
+                                    icon: FontAwesomeIcons.google,
                                     onPressed: () {},
-                                    color: Colors.white,
+                                    color: Colors.redAccent,
                                   ),
                                   _buildSocialButton(
                                     icon: Icons.facebook_rounded,
